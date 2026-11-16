@@ -1,0 +1,209 @@
+/* ========== (Davi) ========== */
+#davi{
+    background-color: beige;
+}
+ 
+ 
+/* ========== CARDS ========== */
+.cartoes{
+    background-color: beige;
+}
+ 
+.cartoes .container{
+    max-width: none;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+ 
+.cartoes .card{
+    background-color: rgb(133, 45, 133);
+}
+ 
+.cartoes_titulo{
+    font-family: 'Cormorant Garamond', serif;
+    color: rgb(133, 45, 133);
+    font-size: 60px;
+}
+ 
+.cartoes_subtitulo{
+    color: rgb(133, 45, 133);
+    font-size: 24px;
+}
+ 
+.cartoes_descricao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 15px 5%;
+}
+ 
+.cartoes_card_titulo{
+    color: white;
+    font-size: 28px;
+}
+ 
+.cartoes .card-text{
+    color: white;
+    font-size: 20px;
+}
+ 
+.cartoes .card-body{
+    display: flex;
+    flex-direction: column;
+    padding: 28px;
+}
+ 
+.cartoes .card-link{
+    margin-top: auto;
+    color: blue;
+    font-size: 20px;
+}
+ 
+ 
+/* ========== DÚVIDAS (SANFONA) ========== */
+.duvidas{
+    background-color: beige;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 50px;
+}
+ 
+.duvidas_titulo{
+    color: rgb(133, 45, 133);
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    font-size: 64px;
+    margin-bottom: 24px;
+}
+ 
+.duvidas_subtitulo{
+    color: rgb(133, 45, 133);
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 48px;
+}
+ 
+/* Botão da pergunta fechado */
+.accordion-button.collapsed {
+    background-color: beige;
+    color: rgb(133, 45, 133);
+    font-weight: bold;
+}
+ 
+/* Botão da pergunta aberto */
+.accordion-button:not(.collapsed) {
+    background-color: beige;
+    color: rgb(133, 45, 133);
+    font-weight: bold;
+}
+ 
+/* resposta */
+.accordion-body {
+    background-color: beige;
+    color: rgb(133, 45, 133);
+    font-size: 22px;
+}
+ 
+/* linha separatória das perguntas */
+.accordion-item {
+    border-color: black;
+}
+ 
+/* tamanho da pergunta */
+.duvidas_sanfona .accordion-button {
+    font-size: 24px;
+    padding: 1.5rem 1.25rem;
+}
+ 
+/* colocar um risco no ultimo retangulo da sanfona */
+.duvidas_sanfona .accordion-flush > .accordion-item:last-child {
+    border-bottom: 1px solid #000;
+}
+ 
+ 
+/* ========== RODAPÉ ========== */
+ 
+/* rodapé (caixa roxa) */
+.rodape{
+    background-color:rgb(133, 45, 133);
+    margin-top: 100px;
+    padding: 24px max(5%, calc((100% - 1200px) / 2));
+ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 40px;
+}
+ 
+/* parte esquerda do rodapé */
+.rodape_acima_titulo{
+    color: yellow;
+    font-size: 20px;
+}
+ 
+.rodape_titulo{
+    color: white;
+    font-size: 42px;
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+ 
+.rodape_subtitulo{
+    color: yellow;
+    font-size: 20px;
+}
+ 
+/* parte direita do rodapé */
+.rodape_contato_titulo{
+    color: yellow;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    font-size: 30px;
+}
+ 
+.rodape_canais{
+    color: white;
+    font-size: 20px;
+}
+ 
+/* link do instagram */
+.rodape_canais a{
+    color: white;
+}
+ 
+.rodape_canais a:visited{
+    color: yellow;
+}
+ 
+.rodape_canais a:hover{
+    color: yellow;
+}
+ 
+/* parte de baixo do rodapé */
+.rodape_base{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-top: 16px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+ 
+.rodape_logo{
+    width: 44px;
+    height: 44px;
+}
+ 
+.rodape_nome_ong{
+    margin: 0 28px 0 0;
+    font-size: 22px;
+    color: white;
+}
+ 
+.rodape_frase{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: yellow;
+    padding: 10px;
+}
