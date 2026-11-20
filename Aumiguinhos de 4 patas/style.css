@@ -293,8 +293,8 @@ body {
 /* ==========================================================
    Como ajudar (blocos adicionados do index.html)
    ========================================================== */
-#davi { background: beige; }
-.cartoes { padding: 48px var(--page-gutter); background: beige; margin-inline: 96px;}
+#davi { background: var(--color-card); }
+.cartoes { padding: 48px var(--page-gutter); background: var(--color-card); margin-inline: 96px;}
 .cartoes .container { max-width: none; padding: 0; }
 .cartoes_descricao {
   display: flex;
@@ -303,7 +303,7 @@ body {
   gap: 15px;
   padding: 15px 0;
 }
-.cartoes_titulo { color: var(--color-primary); font: 400 60px "Cormorant Garamond", serif; }
+.cartoes_titulo { color: var(--color-primary); font: 400 60px "Cormorant Garamond", serif; font-weight: bold;}
 .cartoes_subtitulo { color: var(--color-primary); font-size: 24px; }
 .cartoes .card { background: var(--color-primary); border: none; }
 .cartoes .card-body { display: flex; flex-direction: column; padding: 28px; }
@@ -317,7 +317,7 @@ body {
 .duvidas {
   margin-top: 0;
   padding: 48px var(--page-gutter) 64px;
-  background: beige;
+  background: var(--color-card);
   margin-inline: 96px;
 }
 .duvidas_titulo { margin-bottom: 24px; color: var(--color-primary); font: 600 64px "Cormorant Garamond", serif; }
@@ -326,11 +326,11 @@ body {
 /* Estado aberto e fechado compartilhando os mesmos estilos. */
 .duvidas_sanfona .accordion-button,
 .duvidas_sanfona .accordion-button:not(.collapsed) {
-  background: beige;
+  background: var(--color-card);
   color: var(--color-primary);
   font-weight: 700;
 }
-.duvidas_sanfona .accordion-body { background: beige; color: var(--color-primary); font-size: 22px; }
+.duvidas_sanfona .accordion-body { background: var(--color-card); color: var(--color-primary); font-size: 22px; }
 .duvidas_sanfona .accordion-item { border-color: #000; }
 .duvidas_sanfona .accordion-flush > .accordion-item:last-child { border-bottom: 1px solid #000; }
 
@@ -386,7 +386,7 @@ body {
   .container-cards > .card { flex: 1 1 260px; }
   .passo { flex: 1 1 200px; }
   .cartoes_descricao { flex-direction: column; align-items: flex-start; }
-  .cartoes_titulo { font-size: 48px; }
+  .cartoes_titulo { font-size: 48px; font-weight: bold;}
   .rodape_base { flex-wrap: wrap; }
 }
 @media (max-width: 600px) {
@@ -404,7 +404,7 @@ body {
   .steps-container { gap: 24px; flex-wrap: wrap; justify-content: flex-start; }
   .image-badge-wrapper { left: 12px; bottom: 12px; max-width: calc(100% - 24px); }
   .image-badge-wrapper p { font-size: 12px; white-space: normal; }
-  .cartoes_titulo, .duvidas_titulo { font-size: 40px; }
+  .cartoes_titulo, .duvidas_titulo { font-size: 40px; font-weight: bold;}
   .cartoes_subtitulo, .duvidas_subtitulo { font-size: 20px; }
   .duvidas_sanfona .accordion-button { font-size: 18px; }
   .duvidas_sanfona .accordion-body { font-size: 17px; }
