@@ -1,110 +1,368 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Aumiguinhos de 4 patas</title>
+  <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" rel="stylesheet"/>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
+
 <body>
-
-  <!-- Nosso Trabalho -->
-  <div id="nosso-trabalho" class="bloco-secao container">
-    <div class="container-topo">
-      <div class="caixa-texto">
-        <h2>NOSSO TRABALHO</h2>
-        <h3>O afeto se transforma em cuidado de verdade.</h3>
-      </div>
-      <div class="caixa-descricao">
-        <p>Cada etapa importa. Nosso trabalho une proteção, atenção à saúde e orientação para relações mais conscientes.</p>
-      </div>
+  <!-- Navbar -->
+  <div class="navbar-container">
+    <div class="navbar-logo-container">
+      <img class="rodape_logo" src="moeda_sem_fundo_recortada.png" alt="Logo Aumiguinhos de 4 patas">
+      <p class="navbar-logo-text">AUmiguinhos de 4 patas</p>
     </div>
-
-    <div class="container-cards">
-      <div class="card">
-        <div class="icone">❤️</div>
-        <h3>Acolher e proteger</h3>
-        <p>Um lugar seguro para recomeçar, com atenção às necessidades e ao tempo de cada animal.</p>
-        <p class="rodape-card">Escuta, proteção e acolhimento</p>
+    <nav class="navbar">
+      <div class="navbar-options-container">
+        <a class="link active-link" href="#inicio">Início</a>
+        <a class="link" href="#quem-somos">Quem somos</a>
+        <a class="link" href="#nosso-trabalho">Nosso trabalho</a>
+        <a class="link" href="#adocao-responsavel">Adoção responsável</a>
+        <a class="link" href="#duvidas">Dúvidas</a>
+        <a class="link" href="#como-ajudar">Como ajudar</a>
+        <a class="link" href="#contato">Contato</a>
+        <a class="help-button" href="#como-ajudar">
+          Quero ajudar
+          <span class="material-icons md-18">arrow_outward</span>
+        </a>
       </div>
-
-      <div class="card">
-        <div class="icone">🐾</div>
-        <h3>Cuidar e recuperar</h3>
-        <p>Bem-estar físico e emocional como prioridade, com orientação veterinária e cuidado no dia a dia.</p>
-        <p class="rodape-card">Saúde, alimentação e bem-estar</p>
-      </div>
-
-      <div class="card">
-        <div class="icone">🏠</div>
-        <h3>Conectar e orientar</h3>
-        <p>Aproximar animais e famílias preparadas, incentivando a adoção consciente e a guarda responsável.</p>
-        <p class="rodape-card">Vínculos que se constroem com cuidado</p>
-      </div>
-    </div>
+    </nav>
   </div>
 
-  <!-- Etapas da Jornada -->
-  <div id="jornada" class="container">
-    <div class="bloco-roxo">
+  <!-- Container principal da página -->
+  <div class="page-content">
+
+    <!-- Início -->
+    <div id="inicio" class="content-container inicio-container">
+      <div class="inicio-container-text-wrapper">
+        <p class="content-container-title">CUIDADO ANIMAL COMPROMISSO COM A VIDA</p>
+        <p class="content-container-main-text">Todo animal merece cuidado. E um novo começo.</p>
+        <p class="content-container-supporting-text">
+          Acolher, cuidar e aproximar histórias. Esse é o propósito da AUmiguinhos de 4 patas: construir caminhos para uma vida com mais proteção e carinho.
+        </p>
+        <p class="content-container-supporting-text">
+          Acolher, cuidar e aproximar histórias. Esse é o propósito da AUmiguinhos de 4 patas: construir caminhos para uma vida com mais proteção e carinho.
+        </p>
+      </div>
+      <div class="inicio-container-image-wrapper">
+        <img src="cachorro.jpg" alt="Cachorro">
+        <div class="image-badge-wrapper">
+          <img class="image-badge-image" src="heart-handshake.png" alt="">
+          <p>Um novo começo tem muitas mãos.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="steps-container">
+      <div class="step-wrapper">
+        <img class="step-image" src="flower.png">
+        <p>Respeito a cada vida</p>
+      </div>
+      <div class="step-wrapper">
+        <img class="step-image" src="flower.png">
+        <p>Cuidado em cada etapa</p>
+      </div>
+      <div class="step-wrapper">
+        <img class="step-image" src="flower.png">
+        <p>Adoção com responsabilidade</p>
+      </div>
+    </div>
+
+    <div id="quem-somos" class="quem-somos-container">
+
+    <div class="quem-somos-image-wrapper">
+        <img src="cachorro.jpg" alt="Cachorro">
+    </div>
+
+    <div class="quem-somos-container-text-wrapper">
+        <p class="title">QUEM SOMOS</p>
+
+        <p class="main-text">
+            Uma causa que aproxima pessoas e animais.
+        </p>
+
+        <p class="supporting-text">
+            A AUmiguinhos de 4 patas nasce da ideia de que proteger
+            os animais é um compromisso coletivo. Nossa missão é
+            acolher vidas em situação de vulnerabilidade e incentivar
+            uma convivência mais responsável.
+        </p>
+
+        <p class="supporting-text">
+            Mais do que encontrar um lar, queremos que cada história
+            seja construída com respeito, tempo e cuidado.
+        </p>
+    </div>
+
+</div>
+
+    <!-- Nosso Trabalho -->
+    <div id="nosso-trabalho" class="bloco-secao container">
       <div class="container-topo">
-        <div>
-          <h2>DO ACOLHIMENTO A UM NOVO LAR</h2>
-          <h3>Uma jornada. Cuidado em cada passo.</h3>
+        <div class="caixa-texto">
+          <h2>NOSSO TRABALHO</h2>
+          <h3>O afeto se transforma em cuidado de verdade.</h3>
         </div>
-        <p class="texto-lateral">Cada história tem seu tempo. E esse tempo merece respeito.</p>
+        <div class="caixa-descricao">
+          <p>
+            Cada etapa importa. Nosso trabalho une proteção, atenção à saúde
+            e orientação para relações mais conscientes.
+          </p>
+        </div>
       </div>
 
-      <div class="container-passos">
-        <div class="passo">
-          <p class="numero">01</p>
-          <h3>Acolhimento</h3>
-          <p>Entender a situação e buscar um ambiente seguro para o animal.</p>
+      <div class="container-cards">
+        <div class="card">
+          <div class="icone">❤️</div>
+          <h3>Acolher e proteger</h3>
+          <p>
+            Um lugar seguro para recomeçar, com atenção às necessidades
+            e ao tempo de cada animal.
+          </p>
+          <p class="rodape-card">Escuta, proteção e acolhimento</p>
         </div>
 
-        <div class="passo">
-          <p class="numero">02</p>
-          <h3>Avaliação e cuidado</h3>
-          <p>Identificar necessidades e orientar os cuidados de saúde e bem-estar.</p>
+        <div class="card">
+          <div class="icone">🐾</div>
+          <h3>Cuidar e recuperar</h3>
+          <p>
+            Bem-estar físico e emocional como prioridade, com orientação
+            veterinária e cuidado no dia a dia.
+          </p>
+          <p class="rodape-card">Saúde, alimentação e bem-estar</p>
         </div>
 
-        <div class="passo">
-          <p class="numero">03</p>
-          <h3>Recuperação</h3>
-          <p>Respeitar o tempo de adaptação, com rotina, atenção e carinho.</p>
-        </div>
-
-        <div class="passo">
-          <p class="numero">04</p>
-          <h3>Um novo vínculo</h3>
-          <p>Preparar o encontro com uma família e uma adoção responsável.</p>
+        <div class="card">
+          <div class="icone">🏠</div>
+          <h3>Conectar e orientar</h3>
+          <p>
+            Aproximar animais e famílias preparadas, incentivando
+            a adoção consciente e a guarda responsável.
+          </p>
+          <p class="rodape-card">
+            Vínculos que se constroem com cuidado
+          </p>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- Adoção Responsável -->
-  <div id="adocao" class="bloco-secao container">
-    <h2>ADOÇÃO RESPONSÁVEL</h2>
-    <h3>Adotar é abrir a casa. E assumir um compromisso.</h3>
-    <p class="texto-geral">O encontro é só o começo. Antes de adotar, pense na sua rotina, no espaço e nos cuidados que farão parte dessa nova relação.</p>
+    <!-- Etapas da Jornada -->
+    <div id="jornada" class="container">
+      <div class="bloco-roxo">
+        <div class="container-topo">
+          <div>
+            <h2>DO ACOLHIMENTO A UM NOVO LAR</h2>
+            <h3>Uma jornada. Cuidado em cada passo.</h3>
+          </div>
+          <p class="texto-lateral">
+            Cada história tem seu tempo. E esse tempo merece respeito.
+          </p>
+        </div>
 
-    <ul class="lista">
-      <li>Converse com todos que compartilham o lar.</li>
-      <li>Planeje alimentação, saúde e cuidados contínuos.</li>
-      <li>Respeite o período de adaptação do animal.</li>
-    </ul>
+        <div class="container-passos">
+          <div class="passo">
+            <p class="numero">01</p>
+            <h3>Acolhimento</h3>
+            <p>
+              Entender a situação e buscar um ambiente seguro para o animal.
+            </p>
+          </div>
 
-    <a href="#" class="botao">Quero saber sobre adoção ↗</a>
-  </div>
+          <div class="passo">
+            <p class="numero">02</p>
+            <h3>Avaliação e cuidado</h3>
+            <p>
+              Identificar necessidades e orientar os cuidados de saúde
+              e bem-estar.
+            </p>
+          </div>
 
-  <!-- Imagem -->
-  <div class="bloco-secao container">
-    <div class="container-imagem">
-      <img src="cachorro.jpg" alt="Cachorro caramelo apoiado em uma rede de arame">
+          <div class="passo">
+            <p class="numero">03</p>
+            <h3>Recuperação</h3>
+            <p>
+              Respeitar o tempo de adaptação, com rotina, atenção e carinho.
+            </p>
+          </div>
+
+          <div class="passo">
+            <p class="numero">04</p>
+            <h3>Um novo vínculo</h3>
+            <p>
+              Preparar o encontro com uma família e uma adoção responsável.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-    <p class="legenda">Um lar é feito de presença, paciência e cuidado.</p>
-  </div>
 
+    <!-- Adoção Responsável -->
+    <div id="adocao-responsavel" class="bloco-secao container">
+      <h2>ADOÇÃO RESPONSÁVEL</h2>
+      <h3>Adotar é abrir a casa. E assumir um compromisso.</h3>
+      <p class="texto-geral">
+        O encontro é só o começo. Antes de adotar, pense na sua rotina,
+        no espaço e nos cuidados que farão parte dessa nova relação.
+      </p>
+
+      <ul class="lista">
+        <li>Converse com todos que compartilham o lar.</li>
+        <li>Planeje alimentação, saúde e cuidados contínuos.</li>
+        <li>Respeite o período de adaptação do animal.</li>
+      </ul>
+
+      <a href="#" class="botao">Quero saber sobre adoção ↗</a>
+    </div>
+
+    <!-- Imagem -->
+    <div class="bloco-secao container">
+      <div class="container-imagem">
+        <img src="cachorro.jpg" alt="Cachorro caramelo apoiado em uma rede de arame">
+      </div>
+      <p class="legenda">
+        Um lar é feito de presença, paciência e cuidado.
+      </p>
+    </div>
+
+  </div>
+  <!-- Fim do container principal -->
+
+  <!-- Conteúdo incorporado do index.html: Como ajudar, Dúvidas e Contato -->
+<!-- ========== CARDS ========== -->
+<section class="cartoes" id="como-ajudar">
+<div class="cartoes_descricao">
+<h1 class="cartoes_titulo"> Há muitas formas de estar por perto. </h1>
+<p class="cartoes_subtitulo">Nem todo mundo pode adotar, mas todo gesto<br/>de cuidado pode abrir um caminho.</p>
+</div>
+<div class="container">
+<div class="row g-5">
+<div class="col-12 col-lg-4">
+<div class="card h-100"><!--h-100 pra ficar na mesma altura-->
+<div class="card-body">
+<h5 class="card-title cartoes_card_titulo">Doe cuidado</h5>
+<p class="card-text">Sua doação nos ajuda com ração, medicamentos, consultas com veterinários e muito mais.</p>
+<a class="card-link" href="#">Consultar necessidades</a>
+</div>
+</div>
+</div> <!--col-4-->
+<div class="col-12 col-lg-4">
+<div class="card h-100">
+<div class="card-body">
+<h5 class="card-title cartoes_card_titulo">Seja voluntário</h5>
+<p class="card-text">Doe seu carinho, tempo e talento para salvar vidas.</p>
+<a class="card-link" href="#">Conhecer voluntariado</a>
+</div>
+</div>
+</div> <!--col-4-->
+<div class="col-12 col-lg-4">
+<div class="card h-100">
+<div class="card-body">
+<h5 class="card-title cartoes_card_titulo">Leve a causa adiante</h5>
+<p class="card-text">Compartilhe orientações sobre adoção responsável e ajude mais pessoas a conhecer o trabalho.</p>
+<a class="card-link" href="#">Conversar com a ONG</a>
+</div>
+</div>
+</div> <!--col-4-->
+</div> <!--row-->
+</div><!--container-->
+</section>
+<!-- ========== DÚVIDAS (SANFONA) ========== -->
+<section class="duvidas" id="duvidas"> <!--Parte sobre possíveis dúvidas-->
+<h1 class="duvidas_titulo"> Informação<br/> também é cuidado. </h1>
+<p class="duvidas_subtitulo"> Reunimos algumas orientações para quem quer<br/> se aproximar da causa animal. </p>
+<section class="duvidas_sanfona"><!--sanfona de duvidas-->
+<!--Pergunta 1-->
+<div class="accordion accordion-flush" id="accordionFlushExample">
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button aria-controls="flush-collapseOne" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#flush-collapseOne" data-bs-toggle="collapse" type="button">
+        Como posso ajudar a ONG?
+      </button>
+</h2>
+<div class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample" id="flush-collapseOne">
+<div class="accordion-body">Existem várias formas de ajudar! Você pode fazer doações, ser voluntário ou compartilhar nosso trabalho. Toda ajuda faz diferença na vida dos animais!</div>
+</div>
+</div>
+<!--Pergunta 2-->
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button aria-controls="flush-collapseTwo" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#flush-collapseTwo" data-bs-toggle="collapse" type="button">
+      Quero adotar. Como funciona?
+      </button>
+</h2>
+<div class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample" id="flush-collapseTwo">
+<div class="accordion-body"> Que alegria saber que você quer dar um novo lar a um animal! Entre em contato com nossa equipe para conhecer o processo e encontrar um companheiro que combine com sua rotina.</div>
+</div>
+</div>
+<!--Pergunta 3-->
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button aria-controls="flush-collapseThree" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#flush-collapseThree" data-bs-toggle="collapse" type="button">
+        Como me torno voluntário?
+      </button>
+</h2>
+<div class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample" id="flush-collapseThree">
+<div class="accordion-body">Que bom que você quer fazer parte dessa missão! Entre em contato pelo WhatsApp e conte um pouquinho sobre sua disponibilidade. Vamos encontrar juntos uma forma de você ajudar!
+</div>
+</div>
+</div>
+<!--Pergunta 4-->
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button aria-controls="flush-collapseFour" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#flush-collapseFour" data-bs-toggle="collapse" type="button">
+       Encontrei um animal em risco. O que faço?
+      </button>
+</h2>
+<div class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample" id="flush-collapseFour">
+<div class="accordion-body">  Primeiro, procure garantir a segurança do animal e a sua. Se possível, busque ajuda de um veterinário ou do serviço de proteção animal da sua cidade. Você também pode entrar em contato com a gente. Faremos o possível para orientar e ajudar!
+      </div>
+</div>
+</div>
+</div>
+</section>
+</section>
+<!-- ========== RODAPÉ ========== -->
+<footer class="rodape" id="contato"> <!-- Rodapé (caixinha roxa) -->
+<div class="rodape_texto"> <!-- Parte esquerda do rodapé -->
+<p class="rodape_acima_titulo"> Vamos conversar.</p>
+<h1 class="rodape_titulo">Toda conexão pode ser um<br/> novo começo.</h1>
+<p class="rodape_subtitulo">Para saber mais sobre o trabalho, adoção ou formas de ajudar,<br/>procure os canais oficiais da ONG.</p>
+</div>
+<div class="rodape_canais"> <!-- Parte direita do rodapé -->
+<p class="rodape_contato_titulo">Contato: </p>
+<p> email: teste@gmail.com </p>
+<p> Whatsapp: (32) 99999999</p>
+<p> Instagram: <a href="https://www.instagram.com/aumiguinhos.de4patas/" rel="noopener noreferrer" target="_blank">@aumiguinhos.de4patas</a></p>
+</div>
+<div class="rodape_base"> <!-- Parte de baixo do rodapé -->
+<img alt="Logo Aumiguinhos de 4 patas" class="navbar-logo-image" src="moeda_sem_fundo_recortada.png"/>
+<h2 class="rodape_nome_ong">Aumiguinhos de 4 patas</h2>
+<p class="rodape_frase">Respeito à vida. Afeto em cada recomeço.</p>
+<p class="rodape_frase">Projeto conceitual  Aumiguinhos de 4 patas</p>
+</div>
+</footer>
+
+
+  <script crossorigin="anonymous" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    const allLinks = document.querySelectorAll(".navbar .link");
+
+    allLinks.forEach(link => {
+      link.addEventListener("click", () => {
+        allLinks.forEach(item => {
+          item.classList.remove("active-link");
+        });
+
+        link.classList.add("active-link");
+      });
+    });
+  </script>
 </body>
+
 </html>
